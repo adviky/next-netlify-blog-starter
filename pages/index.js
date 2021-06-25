@@ -7,10 +7,10 @@ const Index = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
+        <h1 className="title">Welcome to Krishnan  blog!</h1>
 
         <p className="description">
-          This is a simple blog built with Next, easily deployable on{' '}
+          This is a simple blog built with Next, and automatically deploys on{' '}
           <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
         </p>
         <main>
